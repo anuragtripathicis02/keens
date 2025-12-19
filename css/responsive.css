@@ -277,6 +277,27 @@ footer.footer .copyr-ght-box {
 }
 
 
+.order-now-details-sec .order-modal-left {
+    width: 100%;
+}
+
+.order-now-details-sec .order-modal-right {
+    width: 100%;
+    padding: 32px;
+}
+
+.order-now-modal .modal-dialog {
+    height: calc(100% - 3.5rem);
+    max-width: 96%;
+    min-height: calc(100% - 1rem);
+}
+
+
+.order-now-modal .modal-header button.btn-close {
+    box-shadow: 0 0 5px #e0e0e0;
+}
+
+
 }
 
 
@@ -545,6 +566,43 @@ h4 {font-weight: 500;font-size: 18px;line-height: 26px;}
     width: 100%;
 }
 
+
+.vehicle-accordion .dropdown-panel .search-box {
+    padding: 10px 12px;
+}
+
+.vehicle-accordion .option-card {
+    height: 160px;
+}
+
+.vehicle-accordion .option-card img {max-height: 84px;max-width: 100px;}
+
+.vehicle-accordion .option-card p {
+    font-size: 13px;
+    flex-wrap: wrap;
+    line-height: 15px;
+}
+
+
+
+.order-now-details-sec .order-left-img-box {
+    padding: 16px;
+}
+
+.order-now-details-sec .order-modal-right {
+    padding: 16px;
+}
+
+.payment-method ul li {
+    width: calc(50% - 6px);
+}
+
+.order-now-details-sec .footer-btn-box button.btn-theme {
+    min-width: max-content;
+}
+.order-pay-box .pay-box {
+    padding: 10px 12px;
+}
 
 }
     
