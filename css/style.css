@@ -794,7 +794,7 @@ footer.footer {
     overflow: hidden;
     min-height: 420px;
     border-radius: 4px;
-    padding: 20px;
+    padding: 80px 0px;
 }
 .hero-image {position: absolute;right: 0;bottom: 0;width: 65%;text-align: right;
 display: flex;
@@ -812,7 +812,7 @@ justify-content: end
 .feature-item p { margin-bottom: 0;}
 
 
-.top-content { padding: 20px 20px 0px 20px; border-radius: 4px; background-color: var(--sky-blue);}
+.top-content { padding: 80px 20px 60px 20px; border-radius: 4px; background-color: var(--sky-blue);}
  h3 span {color: rgba(0, 0, 0, 0.5);}
 .trust-section .card-left h3 {max-width: 498px;}
 .stats { display: grid; grid-template-columns: repeat(2, 1fr);gap: 24px;margin-top: 83px;}
@@ -917,7 +917,7 @@ justify-content: end
 
 .bg-orange {
     background: var(--orange);
-    padding: 20px;
+    padding: 80px 20px;
     border-radius: 4px;
 }
 
@@ -2444,5 +2444,91 @@ height: 100%;
   left: 0;
 }
 
+/* Category page css start */
+
+.promo-card {
+    position: relative;
+    border-radius: 8px;
+    min-height: 158px;
+    background-repeat: no-repeat;
+    color: var(--bs-white);
+    background-position: center right -1px;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+.promo-card::before{
+    position: absolute;
+    content: "";
+}
+
+.promo-card-content{ padding: 16px; position: relative;}
+.promo-card .promo-card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+.promo-card .promo-card-text {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+.promo-card-factory .promo-card-text{ max-width: 213px;}
+.promo-card .btn-theme{ min-width: auto; white-space: nowrap;}
+.promo-card-factory::before{
+    width: 275px;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(46, 56, 71, 0) 0%, #2E3847 100%);
+}
+.promo-card-factory {
+    background-color: #2E3847;
+    background-size: cover;
+}
+.promo-card-financing{ background-color: #0B6E4F;}
+.promo-card-interest{ background-color: #143FAB;}
+.promo-card .text-month {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.promo-card.promo-card-free-delivery {
+    min-height: 230px;
+    background-size: cover;
+}
+
+.promo-card-free-delivery .promo-card-title,
+.promo-card-free-delivery .promo-card-text{ color: var(--title);}
+.promo-card-installation{ background-color: #0C0C06;}
+.promo-card-installation::before {
+    width: 290px;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.promo-card-delivery-installation{ background-size: cover;}
+.promo-card.promo-card-delivery-installation{ min-height: 288px;}
 
 
+.promo-card-warranty.promo-card {background-color: #39404A;}
+
+.promo-card-warranty .promo-card-content {
+    background-repeat: no-repeat;
+    background-position: center right -1px;
+    background-size: auto 100%;
+}
+.promo-card-over-Installs{ background-color: #227D89;}
+.promo-card-over-Installs .promo-card-content{ padding-bottom: 0px;}
+
+.promo-card-rent-to-own {
+    background-color: #1D2124;
+}
+
+.promo-card.promo-card-better-bussiness{
+    background-color: rgba(1, 90, 117, 0.15);
+    min-height: inherit;
+}
+.promo-card.promo-card-better-bussiness .promo-card-title,
+.promo-card.promo-card-better-bussiness .promo-card-text{ color: var(--title);}
+.promo-card .d-flex { gap: 20px;}
