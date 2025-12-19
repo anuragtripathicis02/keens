@@ -216,6 +216,7 @@ footer.footer .copyr-ght-box {
 .coverage-section [class*='col-']:not(:last-child) { margin-bottom: 25px;}
 .sec-proudly-featured::before, .sec-proudly-featured::after{ width: 120px;}
 
+.icon-row { grid-template-columns: repeat(4, 1fr);}
 
 .product-img-box .swiper-button-next {
     background: transparent;
