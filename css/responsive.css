@@ -458,7 +458,7 @@ h4 {font-weight: 500;font-size: 18px;line-height: 26px;}
 }
 
 .py-68 {padding: 24px 0px;}
-.sec-about-main h1 { max-width: 100%; text-align: left; margin-bottom: 24px;}
+.sec-about-main h1 { max-width: 100%; text-align: left; margin-bottom: 0px;}
 .sec-about-main [class*='col-']:not(:last-child){ margin-bottom: 48px;}
 .about-stats {
     grid-template-columns: repeat(2, 1fr);
@@ -567,6 +567,31 @@ h4 {font-weight: 500;font-size: 18px;line-height: 26px;}
 }
 
 
+.finance-section [class*='col-']:not(:last-child){ margin-bottom: 30px;}
+.finance-section {padding: 24px 0px;}
+.finance-section .subtitle { max-width: 100%; margin: 0 auto 44px auto;}
+.icon-row {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    margin-bottom: 48px;
+}
+
+.finance-card h4 {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.finance-section [class*='col-']:not(:last-child){ margin-bottom: 8px;}
+.promo-card .promo-card-title {
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 160px;
+}
+
+.bg-orange {
+    padding: 68px 20px;
 .vehicle-accordion .dropdown-panel .search-box {
     padding: 10px 12px;
 }
