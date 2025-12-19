@@ -1251,12 +1251,12 @@ justify-content: end
     width: calc(100% - 50px);
 }
 
-.contcat-box .btn {
+.contcat-box .btn-theme {
     min-width: max-content;
 }
 
 
-.contcat-box .btn[aria-expanded="true"] {
+.contcat-box .btn-theme[aria-expanded="true"] {
     display: none;
 }
 
@@ -1940,6 +1940,11 @@ justify-content: end
   .product-img-list .swiper-pagination {
     display: none !important;
   }
+
+  .product-img-box {
+        position: sticky;
+        top: 75px;
+    }
 }
 
 .product-img-box .full-img-box img {
@@ -2311,6 +2316,44 @@ justify-content: end
 .lighter-green-bg {
     background: rgb(136 219 206 / 20%);
 }
+
+
+.location-product-section {
+    background: #F2F2F2;
+    border-radius: 8px !important;
+}
+
+.location-product-section .location-top-box h5 {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -.4px;
+    margin-bottom: 8px;
+}
+
+.location-product-section .location-top-box p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -.1px;
+    color: #2E2D2D;
+    margin: 0;
+}
+
+.location-product-section .location-top-box {
+    padding: 16px;
+}
+
+.location-product-section .location-card {
+    background: var(--white);
+}
+
+.location-product-section .locations-left {
+    padding: 16px;
+}
+
+.location-product-section .locations-right {
+    margin-top: -119px;
+}
+
 
 /* Product page css end */
 
