@@ -10,6 +10,10 @@
         padding: 0px 7px;
     }
 
+    .header-right {
+        padding-left: 16px;
+    }
+
 }
 
 
@@ -88,6 +92,14 @@ header .offcanvas {
 }
 
 .value-number {font-size: 200px;line-height: 200px;}
+
+.online-chat-box p {
+    font-size: 13px;
+}
+
+.online-chat-box h4 {
+    font-size: 18px;
+}
 
 
 }
@@ -205,6 +217,65 @@ footer.footer .copyr-ght-box {
 .sec-proudly-featured::before, .sec-proudly-featured::after{ width: 120px;}
 
 .icon-row { grid-template-columns: repeat(4, 1fr);}
+
+.product-img-box .swiper-button-next {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    width: 60px;
+    bottom: 0;
+    top: auto;
+    height: 40px;
+}
+
+.product-img-box .swiper-button-next:after {
+    display: none;
+}
+
+.product-img-box .product-img-list {
+    padding-bottom: 55px;
+}
+
+.product-img-box .swiper-button-prev {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    width: 60px;
+    bottom: 0;
+    top: auto;
+    height: 40px;
+}
+
+.product-img-box .swiper-button-prev:after {
+    display: none;
+}
+
+.product-img-box .swiper-pagination {
+    width: calc(100% - 160px);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.product-img-box  .full-img-box img {
+    object-fit: cover;
+    height: 400px;
+}
+
+.color-box {
+    width: 100%;
+}
+
+.product-img-box .swiper-pagination .swiper-pagination-bullet-active {
+    width: 32px;
+    border-radius: 6px;
+    background: var(--orange);
+}
+
+.online-chat-box .top-chat {
+    max-width: 300px;
+}
+
 
 }
 
@@ -445,6 +516,35 @@ h4 {font-weight: 500;font-size: 18px;line-height: 26px;}
 .timeline-section {
     padding-bottom: 48px;
 }
+
+.product-category-icons-box .bottom-metal-garage ul {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    border: none !important;
+}
+
+.online-chat-box .bg-lighter {
+    position: relative;
+}
+
+.online-chat-box .bg-lighter .img-box {
+    position: absolute;
+    right: 0;
+    width: 170px;
+}
+
+.online-chat-box .text-box {
+    width: calc(100% - 124px);
+}
+
+.product-img-box .full-img-box img {
+    height: 250px;
+}
+
+.online-chat-box ul li {
+    width: 100%;
+}
+
 
 }
     

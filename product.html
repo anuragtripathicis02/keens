@@ -124,10 +124,10 @@
     </div>
 
       
-      <section class="product-category">
+      <section class="product-category pb-lg-0 pb-80">
          <div class="container">
             <div class="row">
-               <div class="col-lg-8 mb-lg-0 mb-4">
+               <div class="col-xxl-8 col-lg-7 mb-lg-0 mb-4">
                   <div class="product-img-box ">
                      <div class="swiper mySwiper product-img-list">
                         <div class="swiper-wrapper">
@@ -173,13 +173,17 @@
                               </div>
                            </div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next">
+                           <svg width="56" height="36" viewBox="0 0 56 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="56" height="36" rx="18" fill="white"/><rect x="0.5" y="0.5" width="55" height="35" rx="17.5" stroke="#2E2D2D" stroke-opacity="0.15"/><path d="M31.4766 17.1666H21.3337V18.8332H31.4766L27.0067 23.3032L28.1852 24.4817L34.667 17.9999L28.1852 11.5181L27.0067 12.6966L31.4766 17.1666Z" fill="black"/></svg>
+                        </div>
+                        <div class="swiper-button-prev">
+                           <svg width="56" height="36" viewBox="0 0 56 36" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="56" height="36" rx="18" fill="white"/><rect x="0.5" y="0.5" width="55" height="35" rx="17.5" stroke="#2E2D2D" stroke-opacity="0.15"/><path d="M24.5234 17.1666H34.6663V18.8332H24.5234L28.9933 23.3032L27.8148 24.4817L21.333 17.9999L27.8148 11.5181L28.9933 12.6966L24.5234 17.1666Z" fill="black"/></svg>
+                        </div>
                         <div class="swiper-pagination"></div>
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4">
+               <div class="col-xxl-4 col-lg-5">
                   <div class="product-category-details">
                      <div class="text-rating-top metal-garage-sec mb-4">
                         <h4>40×60 Steel Building</h4>
@@ -216,7 +220,14 @@
                               </h2>
                               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                  <div class="accordion-body">
-                                    <p> Choose Height or Vehicle</p>
+                                    <div class="accordion-product-box vehicle-accordion">
+                                        <div class="text-box">
+
+                                        </div>
+                                        <div class="img-box">
+                                            <img src="images/product-car-img.png" alt="">
+                                        </div>
+                                    </div>
                                  </div>
                               </div>
                            </div>
@@ -404,7 +415,7 @@
                                  <h4>Not sure what you need?</h4>
                                  <p>Let's figure it out together by free consultation with our specialists.</p>
                               </div>
-                              <ul class="list-unstyled p-0 m-0 d-flex align-items-center gap-2">
+                              <ul class="list-unstyled p-0 m-0 d-flex align-items-center gap-2 flex-xl-nowrap flex-wrap">
                                  <li>
                                     <a href="#" class="btn btn-theme btn-orange">Online Chat</a>
                                  </li>
@@ -573,16 +584,49 @@
                            </div>
                         </div>
                      </div>
-
-
-
                      
-                     <div class="locations-section mt-5">
-                           <div class="row">
-                              <div class="col-lg-12">
-                                 <div class="locations-left">
-                                    <div class="location-card active" data-bs-toggle="collapse" href="#collapseExample" role="button"
-                                       aria-expanded="false" aria-controls="collapseExample">
+                     <div class="locations-section mt-5 location-product-section">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <div class="location-top-box">
+                                 <h5>See it before you buy it.</h5>
+                                 <p>Visit any of our 7 showrooms to walk through full-size models, touch the materials, and see the quality firsthand</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="location-product-acc position-relative">
+                           <div class="locations-left">
+                              <div class="location-card active" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                 aria-expanded="false" aria-controls="collapseExample">
+                                 <div class="d-flex">
+                                    <span class="dot">
+                                       <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                          xmlns="http://www.w3.org/2000/svg">
+                                          <g>
+                                             <path
+                                                d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
+                                                fill="currentColor" />
+                                          </g>
+                                       </svg>
+                                    </span>
+                                    <label class="location-label">Live Oak, FL</label>
+                                 </div>
+                                 <p>620 W. Howard St., Hwy. 90W<br>Live Oak, FL 32064</p>
+
+                                 <div class="down-arrow">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <g opacity="0.5">
+                                       <path
+                                          d="M10.0005 11.6248L14.1254 7.5L15.3039 8.67851L10.0005 13.9819L4.69727 8.67851L5.87577 7.5L10.0005 11.6248Z"
+                                          fill="currentColor" />
+                                    </g>
+                                 </svg>
+                                 </div>
+
+                              </div>
+                              <div class="collapse " id="collapseExample">
+                                 <div class="location-list d-block pt-0 mt-2">
+                                    <div class="location-card mb-2">
                                        <div class="d-flex">
                                           <span class="dot">
                                              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -594,148 +638,115 @@
                                                 </g>
                                              </svg>
                                           </span>
-                                          <label class="location-label">Live Oak, FL</label>
+                                          <label class="location-label">Live Oak Super Center, FL</label>
                                        </div>
-                                       <p>620 W. Howard St., Hwy. 90W<br>Live Oak, FL 32064</p>
-
-                                       <div class="down-arrow">
-                                          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                          <g opacity="0.5">
-                                             <path
-                                                d="M10.0005 11.6248L14.1254 7.5L15.3039 8.67851L10.0005 13.9819L4.69727 8.67851L5.87577 7.5L10.0005 11.6248Z"
-                                                fill="currentColor" />
-                                          </g>
-                                       </svg>
-                                       </div>
-
+                                       <p>211 72nd Trace <br> Live Oak, FL 32064</p>
                                     </div>
-                                    <div class="collapse " id="collapseExample">
-                                    <div class="location-list d-block pt-0 mt-2">
-                                       <div class="location-card mb-2">
-                                          <div class="d-flex">
-                                             <span class="dot">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                   xmlns="http://www.w3.org/2000/svg">
-                                                   <g>
-                                                      <path
-                                                         d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
-                                                         fill="currentColor" />
-                                                   </g>
-                                                </svg>
-                                             </span>
-                                             <label class="location-label">Live Oak Super Center, FL</label>
-                                          </div>
-                                          <p>211 72nd Trace <br> Live Oak, FL 32064</p>
+                                    <div class="location-card mb-2">
+                                       <div class="d-flex">
+                                          <span class="dot">
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                   <path
+                                                      d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
+                                                      fill="currentColor" />
+                                                </g>
+                                             </svg>
+                                          </span>
+                                          <label class="location-label">Brooksville/Masaryktown, FL</label>
                                        </div>
-                                       <div class="location-card mb-2">
-                                          <div class="d-flex">
-                                             <span class="dot">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                   xmlns="http://www.w3.org/2000/svg">
-                                                   <g>
-                                                      <path
-                                                         d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
-                                                         fill="currentColor" />
-                                                   </g>
-                                                </svg>
-                                             </span>
-                                             <label class="location-label">Brooksville/Masaryktown, FL</label>
-                                          </div>
-                                          <p>568 Broad <br> St Masaryktown, FL 34604</p>
-                                       </div>
-                                       <div class="location-card mb-2">
-                                          <div class="d-flex">
-                                             <span class="dot">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                   xmlns="http://www.w3.org/2000/svg">
-                                                   <g>
-                                                      <path
-                                                         d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
-                                                         fill="currentColor" />
-                                                   </g>
-                                                </svg>
-                                             </span>
-                                             <label class="location-label">Perry, FL</label>
-                                          </div>
-                                          <p>2444 South Byron Butler Parkway <br>
-                                             Perry, FL 32348</p>
-                                       </div>
-                                       <div class="location-card mb-2">
-                                          <div class="d-flex">
-                                             <span class="dot">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                   xmlns="http://www.w3.org/2000/svg">
-                                                   <g>
-                                                      <path
-                                                         d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
-                                                         fill="currentColor" />
-                                                   </g>
-                                                </svg>
-                                             </span>
-                                             <label class="location-label">Waycross, GA</label>
-                                          </div>
-                                          <p>2203 Memorial Drive <br> Waycross, GA 31501</p>
-                                       </div>
-                                       <div class="location-card mb-2">
-                                          <div class="d-flex">
-                                             <span class="dot">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                   xmlns="http://www.w3.org/2000/svg">
-                                                   <g>
-                                                      <path
-                                                         d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
-                                                         fill="currentColor" />
-                                                   </g>
-                                                </svg>
-                                             </span>
-                                             <label class="location-label">Chiefland, FL</label>
-                                          </div>
-                                          <p>2561 N Young Blvd <br> Chiefland, FL 32626</p>
-                                       </div>
-                                       <div class="location-card mb-2">
-                                          <div class="d-flex">
-                                             <span class="dot">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                   xmlns="http://www.w3.org/2000/svg">
-                                                   <g>
-                                                      <path
-                                                         d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
-                                                         fill="currentColor" />
-                                                   </g>
-                                                </svg>
-                                             </span>
-                                             <label class="location-label">Dade City, FL</label>
-                                          </div>
-                                          <p>20229 US 301 Dade City, FL 33523</p>
-                                       </div>
-                                       <div class="location-card mb-2">
-                                          <div class="d-flex">
-                                             <span class="dot">
-                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                                   xmlns="http://www.w3.org/2000/svg">
-                                                   <g>
-                                                      <path
-                                                         d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
-                                                         fill="currentColor" />
-                                                   </g>
-                                                </svg>
-                                             </span>
-                                             <label class="location-label">Uphold's Feed (Madison, FL)</label>
-                                          </div>
-                                          <p>644 Duval St <br> Madison, FL 32340</p>
-                                       </div>
+                                       <p>568 Broad <br> St Masaryktown, FL 34604</p>
                                     </div>
+                                    <div class="location-card mb-2">
+                                       <div class="d-flex">
+                                          <span class="dot">
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                   <path
+                                                      d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
+                                                      fill="currentColor" />
+                                                </g>
+                                             </svg>
+                                          </span>
+                                          <label class="location-label">Perry, FL</label>
+                                       </div>
+                                       <p>2444 South Byron Butler Parkway <br>
+                                          Perry, FL 32348</p>
+                                    </div>
+                                    <div class="location-card mb-2">
+                                       <div class="d-flex">
+                                          <span class="dot">
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                   <path
+                                                      d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
+                                                      fill="currentColor" />
+                                                </g>
+                                             </svg>
+                                          </span>
+                                          <label class="location-label">Waycross, GA</label>
+                                       </div>
+                                       <p>2203 Memorial Drive <br> Waycross, GA 31501</p>
+                                    </div>
+                                    <div class="location-card mb-2">
+                                       <div class="d-flex">
+                                          <span class="dot">
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                   <path
+                                                      d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
+                                                      fill="currentColor" />
+                                                </g>
+                                             </svg>
+                                          </span>
+                                          <label class="location-label">Chiefland, FL</label>
+                                       </div>
+                                       <p>2561 N Young Blvd <br> Chiefland, FL 32626</p>
+                                    </div>
+                                    <div class="location-card mb-2">
+                                       <div class="d-flex">
+                                          <span class="dot">
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                   <path
+                                                      d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
+                                                      fill="currentColor" />
+                                                </g>
+                                             </svg>
+                                          </span>
+                                          <label class="location-label">Dade City, FL</label>
+                                       </div>
+                                       <p>20229 US 301 Dade City, FL 33523</p>
+                                    </div>
+                                    <div class="location-card mb-2">
+                                       <div class="d-flex">
+                                          <span class="dot">
+                                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                   <path
+                                                      d="M7.33333 13.2967C4.33337 12.965 2 10.4217 2 7.33331C2 4.01961 4.68629 1.33331 8 1.33331C11.3137 1.33331 14 4.01961 14 7.33331C14 10.4217 11.6667 12.965 8.66667 13.2967V16H7.33333V13.2967Z"
+                                                      fill="currentColor" />
+                                                </g>
+                                             </svg>
+                                          </span>
+                                          <label class="location-label">Uphold's Feed (Madison, FL)</label>
+                                       </div>
+                                       <p>644 Duval St <br> Madison, FL 32340</p>
                                     </div>
                                  </div>
                               </div>
-                              <div class="col-lg-12">
-                                 <div class="locations-right">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.8226497424657!2d-82.99283912390838!3d30.29911010645887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88eede7ed8fdca0f%3A0x3b8840c76aa2b33c!2s620%20W%20Howard%20St%20%2390w%2C%20Live%20Oak%2C%20FL%2032064%2C%20USA!5e0!3m2!1sen!2sin!4v1765898623325!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                 </div>
-                              </div>
+                           </div>
+                           <div class="locations-right">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.8226497424657!2d-82.99283912390838!3d30.29911010645887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88eede7ed8fdca0f%3A0x3b8840c76aa2b33c!2s620%20W%20Howard%20St%20%2390w%2C%20Live%20Oak%2C%20FL%2032064%2C%20USA!5e0!3m2!1sen!2sin!4v1765898623325!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           </div>
                         </div>
                      </div>
-
 
                   </div>
                </div>
