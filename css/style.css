@@ -234,7 +234,7 @@ img {
   padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
 
-.header-right button.btn.d-md-none {
+.header-right button.d-md-none {
   padding: 0px;
   margin-left: 20px;
   box-shadow: none !important;
@@ -407,7 +407,7 @@ img {
   box-shadow: 0px 3px 22px rgba(48, 48, 48, 33%) !important;
 }
 
-.btn.btn-border {
+.btn-border {
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -419,7 +419,7 @@ img {
     white-space: nowrap;
 }
 
-.btn.btn-border:hover {
+.btn-border:hover {
     background: var(--orange);
     color: var(--white);
 }
@@ -432,7 +432,7 @@ img {
 }
 .btn-white span{ color: rgba(46, 45, 45, 0.5);}
 
-.btn.btn-border:hover {
+.btn-border:hover {
     background: var(--orange);
     color: var(--white);
 }
@@ -1021,7 +1021,7 @@ justify-content: end
     opacity: 0.5;
 }
 
-.metal-garage-sec  .btn.btn-border {
+.metal-garage-sec .btn-border {
     padding: 10px 18px;
 }
 
@@ -2961,3 +2961,7 @@ height: 100%;
 .promo-card.promo-card-better-bussiness .promo-card-title,
 .promo-card.promo-card-better-bussiness .promo-card-text{ color: var(--title);}
 .promo-card .d-flex { gap: 20px;}
+
+.right-garage-sec .btn-theme.btn-orange {
+    min-width: auto;
+}
